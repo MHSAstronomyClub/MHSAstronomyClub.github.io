@@ -148,10 +148,6 @@ textarea {
  * Addresses margins handled incorrectly in IE6/7
  */
  
-body[Attributes Style] {
-    background-image: url("https://i.ytimg.com/vi/-xgZZPByb1A/maxresdefault.jpg");
-}
- 
 body {
   margin: 0;
 }
