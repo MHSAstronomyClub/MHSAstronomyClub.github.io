@@ -1,2 +1,11 @@
-# MHSAstronomyClub.github.io
-Mundelein High School Astronomy Club
+# mhsastronomy.club
+Official Site of the Club
+#index.html
+Main Site Code
+#stylesheets
+Css for the Main Site
+#images
+Hence the Name
+#javascripts
+Also, Hence the Name
+
