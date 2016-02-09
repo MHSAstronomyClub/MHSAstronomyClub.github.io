@@ -4,12 +4,45 @@ html {
     display: table;
     margin: auto;
 }
-
 body {
     display: table-cell;
     vertical-align: middle;
     max-width: 50em;
-
+}
+.header {
+ 	background-image: url("images/bg-header.jpg");
+ 	padding: 0px 0px 0px 0px;
+ 	height: 100px;
+ 	position: fixed;
+ 	top: 0px;
+ 	width: 100%;
+ 	z-index: 50;
+ }
+.logo {
+ 	margin-bottom: 20px;
+ }
+ .intro {
+ 	clear: left;
+ 	font-size: 90%;
+ 	line-height: 1.4em;
+ }
+ .main-story {
+ 	background-image: url("images/triangles.png");
+ 	background-repeat: no-repeat;
+ 	background-position: 122px 142px;
+ 	height: 570px;
+}
+.more-articles {
+ 	border-top: 1px solid #ffffff;
+ 	padding: 10px;
+}
+.more-articles p {
+ 	border-bottom: 1px solid #807c72;
+ 	padding: 5px 0px 15px 0px;
+ 	font-size: 80%;
+}
+more-articles p:last-child {
+ 	border-bottom: none;
 }
 
 function signinCallback(authResult) {
@@ -62,4 +95,10 @@ a:hover {
 iframe {
 	text-align: none;
 	border-color: red;
+}
+.main-story {
+ -	background-image: url("images/triangles.png");
+ -	background-repeat: no-repeat;
+ -	background-position: 122px 142px;
+ -	height: 570px;
 }
