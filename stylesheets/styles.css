@@ -150,6 +150,8 @@ textarea {
  
 body {
   margin: 0;
+  background: "images/StarSky.png";
+  
 }
 
 /* =============================================================================
@@ -830,8 +832,8 @@ section #title .credits.right {
 .menu-wrap {
 	width:100%;
 	box-shadow:0px 1px 3px rgba(0,0,0,0.2);
-	background:#3e3436;
 	display: block;
+	background-color: clear;
 }
 		 
 .menu {
@@ -875,7 +877,7 @@ section #title .credits.right {
 }
 		 
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
-	background:#2e2728;
+	background: clear;
 }
 		 
 /*----- Bottom Level -----*/
@@ -894,7 +896,7 @@ section #title .credits.right {
 	opacity:0;
 	transition:opacity linear 0.15s;
 	box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-	background:#2e2728;
+	background: clear;
 }
 		 
 .sub-menu li {
