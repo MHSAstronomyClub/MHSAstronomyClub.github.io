@@ -910,3 +910,13 @@ section #title .credits.right {
 .sub-menu li a:hover, .sub-menu .current-item a {
 	background:#3e3436;
 }
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+}
