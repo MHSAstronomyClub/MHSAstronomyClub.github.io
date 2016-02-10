@@ -8,4 +8,5 @@ Css for the Main Site
 Hence the Name
 #javascripts
 Also, Hence the Name
-
+#contacts.html
+Know who to contact for help
