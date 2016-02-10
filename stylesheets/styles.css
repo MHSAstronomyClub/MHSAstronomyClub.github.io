@@ -877,7 +877,7 @@ section #title .credits.right {
 }
 		 
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
-	background: clear;
+	background: #3e3436;
 }
 		 
 /*----- Bottom Level -----*/
