@@ -8,6 +8,7 @@ body {
     display: table-cell;
     vertical-align: middle;
     max-width: 50em;
+    font-size: medium;
 }
 .header {
  	background-image: url("images/bg-header.jpg");
